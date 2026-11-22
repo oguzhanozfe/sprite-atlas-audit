@@ -1,0 +1,81 @@
+{
+  "summary": "3 frames need a second look on the 128 × 64 sheet.",
+  "metrics": {
+    "Frames": 5,
+    "Overlap pairs": 1,
+    "Sheet occupancy": "50.1%"
+  },
+  "rows": [
+    {
+      "Frame": "runner-idle",
+      "Origin": "0, 0",
+      "Size": "32 × 48",
+      "Finding": "Clear"
+    },
+    {
+      "Frame": "runner-step",
+      "Origin": "32, 0",
+      "Size": "32 × 48",
+      "Finding": "overlaps dust-a"
+    },
+    {
+      "Frame": "dust-a",
+      "Origin": "60, 40",
+      "Size": "22 × 16",
+      "Finding": "overlaps runner-step"
+    },
+    {
+      "Frame": "coin-spin",
+      "Origin": "92, 4",
+      "Size": "18 × 18",
+      "Finding": "Clear"
+    },
+    {
+      "Frame": "exit-glow",
+      "Origin": "114, 36",
+      "Size": "20 × 30",
+      "Finding": "clipped"
+    }
+  ],
+  "atlas": {
+    "width": 128,
+    "height": 64,
+    "frames": [
+      {
+        "name": "runner-idle",
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      {
+        "name": "runner-step",
+        "x": 32,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      {
+        "name": "dust-a",
+        "x": 60,
+        "y": 40,
+        "w": 22,
+        "h": 16
+      },
+      {
+        "name": "coin-spin",
+        "x": 92,
+        "y": 4,
+        "w": 18,
+        "h": 18
+      },
+      {
+        "name": "exit-glow",
+        "x": 114,
+        "y": 36,
+        "w": 20,
+        "h": 30
+      }
+    ]
+  }
+}
