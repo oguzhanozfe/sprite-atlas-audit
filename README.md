@@ -2,6 +2,8 @@
 
 Find frame collisions, clipping and wasted space in a sprite atlas before importing it.
 
+**[Open the live demo](https://oguzhanozfe.github.io/sprite-atlas-audit/)** · [Browser features and setup](demo/DEMO.md)
+
 ![Sprite Atlas Audit showing the included example in the browser](docs/preview.png)
 
 [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/sprite-atlas-audit) · [Example input](example.json) · [Computed report](docs/example-report.json) · [Model settings](#connect-a-model)

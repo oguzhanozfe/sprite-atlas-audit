@@ -1,0 +1,13 @@
+{
+  "model": "gemma-4-e4b-it",
+  "text": "Row 2 · Does the overlap found for 'runner-step' need to be adjusted?",
+  "row": 2,
+  "record": {
+    "Frame": "runner-step",
+    "Origin": "32, 0",
+    "Size": "32 × 48",
+    "Finding": "overlaps dust-a"
+  },
+  "source_sha256": "e18dec0057a49a0e0f535117c0f13c7821b451641588bbfcda5090b9c7ca00a8",
+  "report_sha256": "f0174d534ebb1434f2d6cb64d4decc132e5d62f178edfc14c8762bcd7b1ecfac"
+}
